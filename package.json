@@ -1,0 +1,14 @@
+{
+  "name": "italento-front",
+  "version": "0.0.0",
+  "description": "Front de la Aplicacion iTalento, con node y VUE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kanto Software Solutions",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
