@@ -129,6 +129,14 @@ create table iTalento.Mensaje (
   orderId INT not null,
   FOREIGN KEY (orderId) REFERENCES Ordenes(idOrden)
 );
+create table iTalento.habilidades(
+	idHabilidades INT AUTO_INCREMENT,
+    nameH VARCHAR(50) NOT NULL,
+    lvl VARCHAR(50) NOT NULL,
+    PRIMARY KEY(idHabilidades),
+    idUser INT NOT NULL,
+    FOREIGN KEY(idUser) REFERENCES Usuario(id)
+);
 
 SELECT * FROM Usuario;
 
