@@ -1,9 +1,11 @@
 const express = require('express');
+const morgan = require('morgan');
 const app = express();
 //Settings
 app.set('port',3003);
 
 //Middlewares
+app.use(morgan('dev'));
 
 //Rutas
 
