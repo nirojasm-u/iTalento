@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "nodemon server.js",
-    "webpack": "webpack --mode development"
+    "webpack": "webpack --mode development --watch"
   },
   "author": "Kanto Software Solutions",
   "license": "ISC",
