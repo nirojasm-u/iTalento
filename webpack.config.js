@@ -21,7 +21,7 @@ module.exports = {
 			},
 			      // Regla para manejar archivos generales
 				  {
-					test: /\.(ico|png|jpg|jpeg)$/,
+					test: /\.(ico|png|jpg|jpeg|webp)$/,
 					use: [
 					  {
 						loader: 'file-loader',
