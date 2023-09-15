@@ -6,5 +6,5 @@
 # Iniciar
 - npm install
 - npm run serve
-- (En otra terminal)
+- En otra terminal
 - npm run webpack
