@@ -7,9 +7,9 @@ const crud = require('./crud');
 module.exports = router;
 
 //Router index
-router.get('/', (req, res) => {
+/*router.get('/', (req, res) => {
 	res.send('Bienvenido a la API de iTalento');
-});
+});*/
 
 //Segun el metodo de la peticion, se ejecuta la funcion correspondiente
 router.get('/usuarios', 		crud.usuarios);
