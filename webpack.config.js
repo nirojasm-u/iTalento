@@ -18,7 +18,20 @@ module.exports = {
 			{
 				test: /\.vue$/,
 				loader: 'vue-loader'// Utiliza el loader de vue
-			}
+			},
+			      // Regla para manejar archivos generales
+				  {
+					test: /\.(ico|png|jpg|jpeg)$/,
+					use: [
+					  {
+						loader: 'file-loader',
+						options: {
+						  name: '[name].[ext]',
+						  outputPath: 'assets/', // El directorio de salida donde se colocarán los archivos
+						},
+					  },
+					],
+				  },
 		]
 	},
 	plugins: [ new VueLoaderPlugin() ]
