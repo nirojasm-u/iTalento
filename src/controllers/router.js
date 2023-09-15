@@ -1,0 +1,16 @@
+const express = require('express');
+const router = express.Router();
+
+const crud = require('./crud');
+
+//Permite ser usado en otros archivos
+module.exports = router;
+
+//Router index
+router.get('/', (req, res) => {
+	res.send('Bienvenido a la API de iTalento');
+});
+
+router.get('/usuarios', 		crud.usuarios);
+router.get('/publicaciones',	crud.publicaciones);
+router.get('/test',				crud.test);
