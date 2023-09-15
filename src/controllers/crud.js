@@ -14,8 +14,7 @@ const usuarios = (req,res) => {
 		if(error){
 			console.log(error);
 		}else{
-			console.log({results:results});
-			res.send("Usuarios");
+			res.json({results:results});
 		}
 	});
 };
@@ -29,8 +28,7 @@ const publicaciones = (req,res) => {
 		if(error){
 			console.log(error);
 		}else{
-			console.log({results:results});
-			res.send("Usuarios");
+			res.json({results:results});
 		}
 	});
 };
