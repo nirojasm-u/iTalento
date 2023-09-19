@@ -5,6 +5,7 @@ docs/_book
 test/
 
 # local env files
+.env
 .env.local
 .env.*.local
 package-lock.json
