@@ -3,6 +3,7 @@ const morgan = require('morgan');
 const mysql = require('mysql2');
 const app = express();
 const { auth } = require('express-openid-connect');
+require('dotenv').config()
 
 const config = {
     authRequired: false,
