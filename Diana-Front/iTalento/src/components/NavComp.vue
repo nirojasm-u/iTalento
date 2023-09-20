@@ -30,7 +30,7 @@
 						<!--<a class="navbar-brand" href="#">
 						<img src="../assets/img/negro.jpg" alt="" width="70" height="37" class="d-inline-block align-text-top">
 						</a>-->
-						<a class="nav-link txtiTalento" href="#"><strong><large>iTALENTO</large></strong></a>
+						<a class="nav-link txtiTalento" href="/"><strong><large>iTALENTO</large></strong></a>
 					</li>
 					<li class="nav-item">
   						<button class="nav-link btn btn-link btn-login" onclick="window.location.href='/login'">Login</button>
@@ -114,7 +114,7 @@
 		max-width: 1500px; 
 	}
 	.nav-link.btn-link:hover {
-	background-color: #87ceeb; /* Cambia este valor al color de sombreado deseado */
+		background-color: #87ceeb; /* Cambia este valor al color de sombreado deseado */
 	}
 	.navbar-nav {
 		display: flex;
@@ -131,14 +131,15 @@
 		margin-left: 68px;  /* Ajusta la cantidad de espacio según tus necesidades */
 		margin-top: -3px;
 	}
+	
 	.btn-signIn{
 		margin-left: 45px;
 		margin-top: -3px;
 	}
 	.navbar-custom-center {
-	display: flex;
-	justify-content: center; /* Centra horizontalmente los elementos */
-	align-items: center; /* Centra verticalmente los elementos */
+		display: flex;
+		justify-content: center; /* Centra horizontalmente los elementos */
+		align-items: center; /* Centra verticalmente los elementos */
 	}
 	.navbar-toggler{
 		align-items: center;
@@ -173,4 +174,8 @@
 		background-color: #87ceeb;  /* Cambia a cualquier color que desees */
 		color: white;  /* Cambia el color del texto, si es necesario */
   	}
+	  .nav-link:hover {
+		color: #87ceeb; /* Puedes cambiar este valor al color que desees */
+	}
+
 </style>
