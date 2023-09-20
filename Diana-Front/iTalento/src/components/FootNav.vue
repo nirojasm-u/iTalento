@@ -57,8 +57,9 @@
 		</ul>
 	</div>	
 		<div class="Footer-down">	
-			<img class="logo" src="../assets/img/Logotipo_italentoKlenik.svg" alt="iTalento logo" />
-			<div class="text-black-50 text-center" style="float: left; clear:both; margin-left: 2em;">iTalento &#169; 2023</div>
+			<div class="imgiTalento">
+				<img class="logo" src="../assets/img/Logotipo_italentoKlenik.svg" alt="iTalento logo" />
+				<div class="text-black-50 text-center" style="float: left; clear:both; margin-left: 2em;">iTalento &#169; 2023</div>
 			<!--<router-link
 				to="/"
 				class="nav-link"
@@ -66,7 +67,7 @@
 				aria-current="page">
 				<span class="material-icons-round"> home </span>
 			</router-link>--->
-		</div>	
+			</div>	
 			<div class="containerH">
 				<div class="buscat">
 					<router-link to="/" style="color: #0a0a0a">Busca talento </router-link>
@@ -100,13 +101,13 @@
 					</a>
 				</div>
 			</div>
+		</div>
 	</footer>
 </template>
 
 <style scoped>
 	footer {
 		position: sticky;
-		width: 100%;
 	}
 	img {
 		max-width: 120px;
@@ -123,6 +124,8 @@
 		margin-bottom: 30px; /* Ajusta este valor según sea necesario */
 		border-bottom: 1px solid #BFD7D9;
 		border-top: 1px solid #BFD7D9;
+		max-width: 1500px; 
+		margin: auto; /* Centra el bloque */
 	}
 	
 
@@ -140,6 +143,9 @@
 		margin-right: 100px;
 		font-size:medium;
 		margin-top: 50px;
+		max-width: 1500px; 
+		margin: auto; /* Centra el bloque */
+		
 	}
 
 	.logo {
@@ -181,11 +187,13 @@
 	overflow: auto; /* Para que el contenido pueda desplazarse si excede la altura */
 	}
 	.containerR {
-	margin-top: -0.5em;
-    text-align: right; /* Opcional, para centrar el texto */
-    margin-right: 1.5em;
-    display: flex;
-    justify-content: flex-end; /* Alinea el contenido a la derecha */
+		margin-top: -0.5em;
+		text-align: right; /* Opcional, para centrar el texto */
+		margin-right: 1.5em;
+		display: flex;
+		justify-content: flex-end; /* Alinea el contenido a la derecha */
+		max-width: 1500px; 
+		margin: auto; /* Centra el bloque */
 	}
 
 	.social-icons {
@@ -219,13 +227,19 @@
 	}
 
 	.triangle {
-	width: 0;
-	height: 0;
-	border-left: 4.5px solid transparent; /* Izquierda */
-	border-right: 4.5px solid transparent; /* Derecha */
-	border-bottom: 4.5px solid white; /* Base */
-	transform: rotate(90deg); /* Rota el triángulo 90 grados */
+		width: 0;
+		height: 0;
+		border-left: 4.5px solid transparent; /* Izquierda */
+		border-right: 4.5px solid transparent; /* Derecha */
+		border-bottom: 4.5px solid white; /* Base */
+		transform: rotate(90deg); /* Rota el triángulo 90 grados */
 	}
 	
-
+	.Footer-down{
+		max-width: 1500px; 
+		margin: auto; /* Centra el bloque */
+	}
+	.imgiTalento{
+		margin-top:10px;
+	}
 </style>

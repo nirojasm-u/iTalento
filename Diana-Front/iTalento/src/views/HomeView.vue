@@ -85,10 +85,11 @@
 		margin: 0 auto; /* Centra el contenido */
 	}
 	.image-container {
-	position: relative;
-	display: inline-block;
-	height: 700px;
-	object-fit: cover;
+		position: relative;
+		display: inline-block;
+		height: 700px;
+		object-fit: cover;
+		width: 1500px;
 	}
 
 	.overlay-text {
@@ -187,7 +188,7 @@
 	.card-deck {
 		display: flex;
 		flex-wrap: nowrap;  /* Esto evitará que los elementos se envuelvan en múltiples filas */
-		overflow-x: auto;  /* Esto hará que el contenedor tenga desplazamiento horizontal */
+	  /* Esto hará que el contenedor tenga desplazamiento horizontal */
 		border-radius: 30px;
 	}
 
@@ -222,7 +223,7 @@
 		justify-content: center;
 	}
 	.card:hover {
-		border: 5px solid #87CEEB;  /* Cambia 'blue' al color que prefieras */
+		border: 7px solid #87CEEB;  /* Cambia 'blue' al color que prefieras */
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Esto añade un poco de sombra para un efecto más profundo, opcional */
 	}
 </style>
