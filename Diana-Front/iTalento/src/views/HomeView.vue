@@ -93,6 +93,7 @@
 	.container {
 		max-width: 1500px; /* Puedes ajustar esto */
 		margin: 0 auto; /* Centra el contenido */
+		
 	}
 	.image-container {
 		position: relative;
@@ -274,9 +275,9 @@
 		justify-content: center;
 	}
 	.card1a:hover {
-		height: 400px;
-		border: 2px solid #87CEEB;  /* Cambia 'blue' al color que prefieras */
+		border: 3px solid #87CEEB;  /* Cambia 'blue' al color que prefieras */
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Esto añade un poco de sombra para un efecto más profundo, opcional */
+		border-radius: 30px;
 	}
 </style>
 

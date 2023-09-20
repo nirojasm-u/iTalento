@@ -121,11 +121,11 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		margin-bottom: 30px; /* Ajusta este valor según sea necesario */
 		border-bottom: 1px solid #BFD7D9;
 		border-top: 1px solid #BFD7D9;
 		max-width: 1500px; 
 		margin: auto; /* Centra el bloque */
+		margin-top: -40px;
 	}
 	
 
@@ -142,7 +142,6 @@
 		align-items: center;
 		margin-right: 100px;
 		font-size:medium;
-		margin-top: 50px;
 		max-width: 1500px; 
 		margin: auto; /* Centra el bloque */
 		
@@ -165,9 +164,9 @@
 		}
 	}
 	ul.list-group {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
 	}
 	.categoria{
 		margin-left: 300px; /* Ajusta este valor según sea necesario */
@@ -180,11 +179,11 @@
 	.categoria,
 	.Acerca,
 	.Comunidad {
-	flex: 1;
-	text-align: center; /* Opcional, para centrar el texto */
-	border: 0px solid #ccc; /* Opcional, para visualizar los bordes de cada div */
-	height: 300px; /* Establece la altura que desees */
-	overflow: auto; /* Para que el contenido pueda desplazarse si excede la altura */
+		flex: 1;
+		text-align: center; /* Opcional, para centrar el texto */
+		border: 0px solid #ccc; /* Opcional, para visualizar los bordes de cada div */
+		height: 300px; /* Establece la altura que desees */
+		overflow: auto; /* Para que el contenido pueda desplazarse si excede la altura */
 	}
 	.containerR {
 		margin-top: -0.5em;
@@ -203,14 +202,11 @@
 	}
 
 	.social-icons a {
-	margin-right: 15px;  /* Ajusta el margen para los íconos */
-  	text-decoration: none;
+		margin-right: 15px;  /* Ajusta el margen para los íconos */
+		text-decoration: none;
 	}
 
-	.material-icons {
-	font-size: 24px;
-	text-align: right;
-	}
+	
 
 	.custom-icon {
 	width: 20px;
