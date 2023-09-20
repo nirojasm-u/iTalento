@@ -1,6 +1,6 @@
 <template>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom-center" style="width: 100%; align-items: center;" >
-		<div class="container-fluid " >
+	<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom-center" >
+		<div class="container-fluid navbar-container" >
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -24,13 +24,13 @@
 						<a class="nav-link" href="#">Cómo funciona</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Encuentra freelancers</a>
+						<a class="nav-link txtEncuentra" href="#">Encuentra freelancers</a>
 					</li>
 					<li>
 						<!--<a class="navbar-brand" href="#">
 						<img src="../assets/img/negro.jpg" alt="" width="70" height="37" class="d-inline-block align-text-top">
 						</a>-->
-						<a class="nav-link" href="#"><strong><large>iTALENTO</large></strong></a>
+						<a class="nav-link txtiTalento" href="#"><strong><large>iTALENTO</large></strong></a>
 					</li>
 					<li class="nav-item">
   						<button class="nav-link btn btn-link btn-login" onclick="window.location.href='/login'">Login</button>
@@ -106,21 +106,12 @@
 
 
 <style scoped>
-	/*.material-icons-round {
-		color: rgb(248, 244, 244);
-		font-size: 1.4em;
-		background-color: rgba(218, 218, 218, 0.158);
-		padding: 0.3em;
-		border-radius: 50%;
-		margin: 0.1em;
-	}
-	.active .material-icons-round {
-		color: white;
-		background-color: rgba(133, 128, 128, 0.158);
-		border: 1px solid rgba(248, 244, 244, 0.342);
-	}*/
+
 	.navbar-custom {
 		background-color: #EBEBEB; /* Cambia este valor al color deseado */
+	}
+	.navbar-container{
+		max-width: 1500px; 
 	}
 	.nav-link.btn-link:hover {
 	background-color: #87ceeb; /* Cambia este valor al color de sombreado deseado */
@@ -129,17 +120,20 @@
 		display: flex;
 		justify-content: space-between;  /* Distribuye los elementos de manera uniforme a lo largo del eje principal */
 		width: 100%;  /* Ocupa todo el ancho disponible */
-		height: 50px;
+		height: 60px;
 	}
 
 	.nav-item {
 		flex: 1;  /* Asegura que todos los elementos tomen el mismo espacio */
+		margin-top:15px;
 	}
 	.btn-login {  /* Asume que añades una clase "btn-login" al botón de login en tu HTML */
-		margin-left: 60px;  /* Ajusta la cantidad de espacio según tus necesidades */
+		margin-left: 68px;  /* Ajusta la cantidad de espacio según tus necesidades */
+		margin-top: -3px;
 	}
 	.btn-signIn{
-		margin-left: 60px;
+		margin-left: 45px;
+		margin-top: -3px;
 	}
 	.navbar-custom-center {
 	display: flex;
@@ -162,5 +156,21 @@
 	.navbar-nav .nav-item {
 		margin-right: 20px; /* Ajusta el margen entre los elementos de navegación según tus preferencias */
 	}
+	.txtiTalento{
+		margin-top:15px;
+		margin-left:10px;
+	}
+	.btn-muestra{
+		background-color: #87ceeb;
+		margin-top: -3px;
+		margin-left: 50px;
+	}
+	.txtEncuentra{
+		margin-left:10px;
 
+	}
+	.dropdown-menu .dropdown-item:hover {
+		background-color: #87ceeb;  /* Cambia a cualquier color que desees */
+		color: white;  /* Cambia el color del texto, si es necesario */
+  	}
 </style>
