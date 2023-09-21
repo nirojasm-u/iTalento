@@ -1,38 +1,33 @@
 <template>
     <div class="container">     
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="../assets/img/psyduck.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                    <div class="carousel-caption d-none d-md-block captionC">
+                        <h5 class="caption-text">Diana M. Bello L.</h5>
+                        <p class="caption-text">Co-Funder.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="../assets/img/bullbasur.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5 class="caption-text">Andrés L. Leguizamón G.</h5>
+                        <p class="caption-text">Co-Funder.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="../assets/img/squirtle.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5 class="caption-text">Nicolas Rojas M.</h5>
+                        <p class="caption-text">Co-Funder.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="../assets/img/charmander.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Fourth slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5 class="caption-text">Kevin S. Nivia V.</h5>
+                        <p class="caption-text">Co-Funder.</p>
                     </div>
                 </div>
             </div>
@@ -44,6 +39,29 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+        </div>
+        <div class="cuerpo">
+            <div class="siempreT">
+                <h1 class="quienes">Siempre existió talento</h1>
+            </div>
+            <div class="cardiT">
+                <div class="card mb-3" style="width: 800px; height: 681px; border: 0px; border-radius: 10px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h2 class="card-title">Creemos en latinoamerica</h2>
+                                <p class="card-text">En iTalento apostamos por el talento por y para latinoamérica, con menores tasas de comisiones para la plataforma.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="../assets/img/videog.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cuerpo1">
+            <h1>¿Quienes somos?</h1>
         </div>
     </div>
 </template>
@@ -80,5 +98,76 @@
     .carousel-control-next-icon {
         background-color: #87ceeb;
     }
+    .overlay-text {
+	position: absolute;
+		top: 10%; /* Ajusta la posición verticalmente */
+		left: 30%; /* Ajusta la posición horizontalmente */
+		transform: translate(-50%, -50%); /* Centra el texto */
+		/*background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco semitransparente */
+		padding: 10px; /* Espacio alrededor del texto */
+		font-size: 24px; /* Tamaño de fuente *//* Color del texto */
+        text-align: left;
+	}
+    .caption-text {
+        background-color: rgba(0, 0, 0, 0.5); /* Esto añade un fondo negro transparente */
+        padding: 10px; /* Esto añade algo de espacio alrededor del texto */
+        border-radius: 5px; /* Esto redondea las esquinas del fondo */
+        width: 200px;
+    }
+    .quienes{
+        margin-top:50px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .cardiT{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;    
+        flex-direction: column;
+    }
+ 
+    .row.g-0 {
+        height: 100%;
+    }
 
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .cardTitle{
+        align-items: center;
+    }
+    .siempreT,
+    .cuerpo1{
+        background-color: #87ceeb;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+    }
+    .siempreT{
+        margin-bottom: 20px;
+        margin-top:10px
+    }
+    .cuerpo1{
+       margin-top: -1px;
+    }
+    .card.mb-3 {
+        transition: all 0.3s ease;  /* Agrega transición para suavizar el cambio de tamaño */
+    }
+
+    .cardiT:hover .card.mb-3 {
+        transform: scale(1.02);  /* Aumenta el tamaño de la tarjeta un 5% */
+        border: 7px solid #87CEEB;  /* Cambia 'blue' al color que prefieras */
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    }
 </style>
