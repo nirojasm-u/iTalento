@@ -63,6 +63,25 @@
         <div class="cuerpo1">
             <h1>¿Quienes somos?</h1>
         </div>
+        <div class="Diana">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../assets/img/diana.jpg" class="img-fluid rounded-custom" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Diana M. Bello L.</h5>
+                            <h6 class="card-title">Co-Funder, Full Stack</h6>
+                            <p class="card-text">Soy una estudiante dedicada de Ingeniería de Sistemas y computación en la Universidad Nacional. Me destaco por mi capacidad para abordar desafíos tecnológicos con determinación y creatividad. Mi pasión por la informática y la resolución de problemas me han llevado a desarrollar iTalento de la mano de mis socios. </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-github"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -170,4 +189,14 @@
         border: 7px solid #87CEEB;  /* Cambia 'blue' al color que prefieras */
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     }
+    .rounded-custom {
+        margin-top: 50px;
+        border-radius: 50%; /* Esto hace que la imagen sea completamente redonda */
+        width: 200px; /* Ajusta el ancho según tus preferencias */
+        height: 200px; /* Ajusta la altura según tus preferencias */
+    }
+    .Diana{
+        margin-top:10px;
+    }
+
 </style>
