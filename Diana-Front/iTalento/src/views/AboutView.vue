@@ -61,22 +61,85 @@
             </div>
         </div>
         <div class="cuerpo1">
-            <h1>¿Quienes somos?</h1>
+            <h1>¿Quiénes somos?</h1>
         </div>
-        <div class="Diana">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="../assets/img/diana.jpg" class="img-fluid rounded-custom" alt="...">
+        <div class="Matriz">
+            <div class="box">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../assets/img/diana.jpg" class="img-fluid rounded-custom" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Diana M. Bello L.</h5>
+                                <h6 class="card-title">Co-Funder, Full Stack</h6>
+                                <p class="card-text">Soy una estudiante dedicada de Ingeniería de Sistemas y computación en la Universidad Nacional. Me destaco por mi capacidad para abordar desafíos tecnológicos con determinación y creatividad. Mi pasión por la informática y la resolución de problemas me han llevado a desarrollar iTalento de la mano de mis socios. </p>
+                                <div class="social-links">
+                                    <a href="https://www.linkedin.com/in/diana-marcela-bello-l%C3%B3pez-6619b2183/" class="fa fa-linkedin"></a>
+                                    <a href="https://github.com/dbellol" class="fa fa-github"></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Diana M. Bello L.</h5>
-                            <h6 class="card-title">Co-Funder, Full Stack</h6>
-                            <p class="card-text">Soy una estudiante dedicada de Ingeniería de Sistemas y computación en la Universidad Nacional. Me destaco por mi capacidad para abordar desafíos tecnológicos con determinación y creatividad. Mi pasión por la informática y la resolución de problemas me han llevado a desarrollar iTalento de la mano de mis socios. </p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="#" class="fa fa-linkedin"></a>
-                            <a href="#" class="fa fa-github"></a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../assets/img/Andres.jpeg" class="img-fluid rounded-custom" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Andrés L. Leguizamón G.</h5>
+                                <h6 class="card-title">Co-Funder, Full Stack</h6>
+                                <p class="card-text">Soy un estudiante dedicado de Ingeniería de Sistemas y computación en la Universidad Nacional. Me destaco por mi capacidad para abordar desafíos tecnológicos con determinación y creatividad. Mi pasión por la informática y la resolución de problemas me han llevado a desarrollar iTalento de la mano de mis socios. </p>
+                                <div class="social-links">
+                                    <a href="https://www.linkedin.com/in/andr%C3%A9s-leonardo-leguizam%C3%B3n-gutierrez-30b478283/" class="fa fa-linkedin"></a>
+                                    <a href="https://github.com/leoleguizamon97" class="fa fa-github"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../assets/img/Nico.jpg" class="img-fluid rounded-custom" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Nicolás Rojas M.</h5>
+                                <h6 class="card-title">Co-Funder, Full Stack</h6>
+                                <p class="card-text">Soy un estudiante dedicado de Ingeniería de Sistemas y computación en la Universidad Nacional. Me destaco por mi capacidad para abordar desafíos tecnológicos con determinación y creatividad. Mi pasión por la informática y la resolución de problemas me han llevado a desarrollar iTalento de la mano de mis socios. </p>
+                                <div class="social-links">
+                                    <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+                                    <a href="https://github.com/nirojasm-u" class="fa fa-github"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="card mb-3" style="max-width: 540px;" >
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../assets/img/Kev.jpg" class="img-fluid rounded-custom" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Kevin S. Nivia V.</h5>
+                                <h6 class="card-title">Co-Funder, Full Stack</h6>
+                                <p class="card-text">Soy un estudiante dedicado de Ingeniería de Sistemas y computación en la Universidad Nacional. Me destaco por mi capacidad para abordar desafíos tecnológicos con determinación y creatividad. Mi pasión por la informática y la resolución de problemas me han llevado a desarrollar iTalento de la mano de mis socios. </p>
+                                <div class="social-links">
+                                    <a href="https://www.linkedin.com/in/kevin-shaiel-nivia-vargas-3b0aa9222/" class="fa fa-linkedin"></a>
+                                    <a href="https://github.com/GurenSeiken" class="fa fa-github"></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -195,8 +258,31 @@
         width: 200px; /* Ajusta el ancho según tus preferencias */
         height: 200px; /* Ajusta la altura según tus preferencias */
     }
-    .Diana{
-        margin-top:10px;
+
+    .social-links a {
+        display: inline-block; /* Hace que los enlaces sean elementos en línea para que estén en la misma línea horizontal */
+        margin-right: 10px; /* Agrega un margen derecho para separar los enlaces */
+        font-size: 24px; /* Cambia el tamaño de fuente a tu preferencia */
+        color: #87CEEB;
+    }
+    .Matriz {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* 2 columnas de igual tamaño */
+        grid-template-rows: 1fr 1fr; /* 2 filas de igual tamaño */
+        gap: 20px; /* Espaciado entre elementos */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box {
+        display:flex;
+        text-align: center; /* Centrar texto horizontalmente */
+        vertical-align: middle; /* Centrar texto verticalmente */
+        padding: 20px; /* Espaciado interno */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        justify-content: center;
+        align-items: center;
     }
 
 </style>
