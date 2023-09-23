@@ -3,6 +3,7 @@ node_modules/
 dist/
 docs/_book
 test/
+js/
 
 # local env files
 .env.local
