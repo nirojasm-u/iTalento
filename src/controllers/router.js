@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 
 const crud = require('./crud');
-
 //Permite ser usado en otros archivos
 module.exports = router;
 
