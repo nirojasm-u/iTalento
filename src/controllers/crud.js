@@ -7,13 +7,13 @@ const route		= require('./router');
 //insertar datos base de datos
 exports.createUsuario = (req,res) =>{
 	const id = req.body.id;
-	const email = req.body.email;
+	const email = req.oidc.user.email;
 	const password = req.body.password;
 	const username = req.body.username;
-	const firstName = req.body.firstName;
-	const lastName = req.body.lastName;
+	const firstName = req.oidc.user.given_name;
+	const lastName = req.oidc.user.family_name;
 	const description = req.body.description;
-	const profileImage = req.body.profileImage;
+	const profileImage = req.oidc.user.picture;
 	const isBuyer = req.body.isBuyer;
 	const isBoth = req.body.isBoth;
 	const isFreelancer = req.body.isFreelancer;
