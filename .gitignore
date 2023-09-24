@@ -3,6 +3,7 @@ node_modules/
 dist/
 docs/_book
 test/
+*/src/public
 
 # local env files
 .env
@@ -15,6 +16,7 @@ bundle.js
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
 # Editor directories and files
 .idea
