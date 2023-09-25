@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 
 const crud = require('./crud');
-
 //Permite ser usado en otros archivos
 module.exports = router;
 
@@ -10,7 +9,7 @@ module.exports = router;
 router.get('/', (req, res) => {
 	console.log(req.oidc.isAuthenticated());
 	console.log(req.oidc.user);
-	res.send("Bienvenido a la API de iTalento");
+	res.send("Bienvenido al API de italento");
 });
 
 //Segun el metodo de la peticion, se ejecuta la funcion correspondiente
