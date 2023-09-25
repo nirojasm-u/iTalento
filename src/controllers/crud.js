@@ -18,7 +18,7 @@ exports.createUsuario = (req,res) =>{
 	const isBoth = req.body.isBoth;
 	const isFreelancer = req.body.isFreelancer;
 	const createdAt = req.body.createdAt;
-	conexion.query("INSERT INTO Usuario (id,email, password, username, firstName, lastName, description, profileImage, isBuyer, isBoth, isFreelancer, createdAt) VALUES ( '" + id + "' ,'" + email + "' , '" + password + "' ,'" + username + "' , '" + firstName + "' , '" + lastName + "' , " + description + ", " + profileImage + ", " + isBuyer + ", " + isBoth + ", " + isFreelancer + ", " + createdAt +")", (error, results) => {
+	conexion.query("INSERT INTO Usuario (id,email, password, username, firstName, lastName, decription, profileImage, isBuyer, isBoth, isFreelancer, createdAt) VALUES ( '" + id + "' ,'" + email + "' , '" + password + "' ,'" + username + "' , '" + firstName + "' , '" + lastName + "' , " + description + ", " + profileImage + ", " + isBuyer + ", " + isBoth + ", " + isFreelancer + ", " + createdAt +")", (error, results) => {
 		if(error){
 			console.log(error);
 		}else{
@@ -110,7 +110,7 @@ const usuarios = (req,res) => {
 	const nombre = req.body.Nombre;
 	const contraseña = req.body.Contraseña;
 	
-	conexion.query("SELECT * FROM usuarios", (error,results) => {
+	conexion.query("SELECT * FROM usuario", (error,results) => {
 		if(error){
 			console.log(error);
 		}else{
@@ -126,7 +126,7 @@ const publicaciones = (req,res) => {
 	const autor = req.body.AutorID;
 	const contenido = req.body.Contenido;
 
-	conexion.query("SELECT * FROM publicaciones", (error,results) => {
+	conexion.query("SELECT * FROM publicacion", (error,results) => {
 		if(error){
 			console.log(error);
 		}else{
